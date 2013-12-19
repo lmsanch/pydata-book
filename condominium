@@ -1,0 +1,69 @@
+{
+ "metadata": {
+  "name": "condominium"
+ },
+ "nbformat": 3,
+ "nbformat_minor": 0,
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "import os\n",
+      "import pandas as pd\n",
+      "os.chdir('/media/sf_Documents/pydata-book')"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": [],
+     "prompt_number": 1
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "ls"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": [
+        "\u001b[0m\u001b[01;32mbaby_names\u001b[0m*        \u001b[01;32mbitly1\u001b[0m*        \u001b[01;34mch02\u001b[0m/  \u001b[01;34mch07\u001b[0m/  \u001b[01;34mch11\u001b[0m/\r\n",
+        "\u001b[01;32mbaby_names.ipynb\u001b[0m*  \u001b[01;32mbitly1.IPYNB\u001b[0m*  \u001b[01;34mch03\u001b[0m/  \u001b[01;34mch08\u001b[0m/  \u001b[01;34mch13\u001b[0m/\r\n",
+        "\u001b[01;32mbitly\u001b[0m*             \u001b[01;32mbitly.ipynb\u001b[0m*   \u001b[01;34mch06\u001b[0m/  \u001b[01;34mch09\u001b[0m/  \u001b[01;32mnyc-condominium-dataset.csv\u001b[0m*\r\n"
+       ]
+      }
+     ],
+     "prompt_number": 2
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "pd.set_option('display.line_width', 300)\n",
+      "#Load csv into pandas dataframe\n",
+      "df = pd.read_csv('nyc-condominium-dataset.csv')"
+     ],
+     "language": "python",
+     "metadata": {},
+     "outputs": [],
+     "prompt_number": 6
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    }
+   ],
+   "metadata": {}
+  }
+ ]
+}
